@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Romain TORTOSA</title>
+    <link  href="style.css" rel="stylesheet" >
+    <link rel="icon" type="image/jpg" href="../img/logo.jpg" />
+</head>
+<body>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="link_menu ">CV</a></li>
+            <li><a href="portfolio.html" class="link_menu">Portfolio</a></li>
+            <li><a href="contact.html" class="link_menu active">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="main_contact">
+        <section class="section_form">
+            <div class="cards">
+                <div class="card c1"><div class="card_in">
+                    <img src="img/adresseBlue.png" alt="adresse postal">
+                    <h3>ADRESSE POSTALE</h3>
+                    <p>1 rue Frédéric Chopin <br>
+                        38400 SMH</p>
+                </div></div>
+                <div class="card c2"><div class="card_in">
+                    <img src="img/telephone.png" alt="numéro de téléphone">
+                    <h3>TELEPHONE</h3>
+                    <p>06.63.60.49.15</p>
+                </div></div>
+                <div class="card c3"><div class="card_in">
+                    <img src="img/message.png" alt="adresse mail">
+                    <H3>MAIL</H3>
+                    <p>romain.tortosa@gmail.com</p>
+                </div></div>
+                <div class="card c4"><div class="card_in">
+                    <img src="img/reseau.png" alt="mes réseaux sociaux">
+                    <H3>RESEAUX SOCIAUX</H3>
+                    <div class="imgReseau">
+                        <img src="img/linkedin.png" alt="mon linkedin">
+                        <img src="img/git.png" alt="mon git">
+                        <img src="img/codepen.png" alt="mon codepen">
+                    </div>
+                </div></div>
+            </div>
+            <div class="form">
+                <div class="wrap2"></div>
+                <h3>Me contacter</h3>
+                <form action="https://httpbin.org/get" method="get">
+                    <label for="Prénom" ></label><input type="text" name="Prénom" id="Prénom" placeholder="Prénom" required />
+                    <label for="Nom"></label><input type="text" id="Nom" name="Nom" placeholder="Nom" required />
+                    <label for="Email" ></label><input type="email" name="Email" id="Email" placeholder="Email" required/>
+                    <label for="texte"></label><textarea name="texte" id="texte" cols="30" rows="10" placeholder="Saisir votre message..." required></textarea>
+                    <input type="submit" class="submit" value="Envoyer" />
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
